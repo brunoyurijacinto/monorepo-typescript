@@ -11,4 +11,4 @@ expressApp.use(express.static("static"))
 expressApp.use(express.static("node_modules/bootstrap/dist"))
 const server = createServer(expressApp)
 
-server.listen(port, () => console.log(`HTTP sServer listening on port ${port})`))
+server.listen(port, () => console.log(`HTTP Server listening on port ${port})`))

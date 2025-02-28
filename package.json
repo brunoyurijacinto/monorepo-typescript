@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server-api-demo": "tsc-watch --noClear --onsuccess \"node application/api-demo/server/dist/server/server.js\"",
-    "build": "tsc --build --verbose",
+    "server-api-demo": "tsc-watch -p tsconfig-server-api-demo.json --noClear --onsuccess \"node application/api-demo/server/dist/server/server.js\"",
+    "build-server-api-demo": "tsc --build tsconfig-server-api-demo.json --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
