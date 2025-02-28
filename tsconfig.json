@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src/server",
+    "outDir": "dist/server/"
+  },
+  "include": ["src/server/**/*"],
+  "references": [
+    {
+      "path": "./packages/utils"
+    }
+  ]
+}
