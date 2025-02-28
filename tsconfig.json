@@ -1,10 +1,10 @@
 {
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "rootDir": "src/server",
-    "outDir": "dist/server/"
+    "rootDir": "application/api-demo/server",
+    "outDir": "application/api-demo/server/dist/server/"
   },
-  "include": ["src/server/**/*"],
+  "include": ["application/api-demo/server/**/*"],
   "references": [
     {
       "path": "./packages/utils"

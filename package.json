@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "tsc-watch --noClear --onsuccess \"node dist/server/server.js\"",
+    "server-api-demo": "tsc-watch --noClear --onsuccess \"node application/api-demo/server/dist/server/server.js\"",
     "build": "tsc --build --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
